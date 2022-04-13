@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../img/mariofundo1.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 280px;
+    
+    
+    
+}
+
+#container-principal{
+   margin: 0 auto;
+    
+   
+    
+}
+.logo{
+    width: 130px;
+    height: 90px;
+    margin: 8px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    
+}
+
+.container-principal{
+    overflow: hidden;
+    max-width: 990px;
+    margin: 40px auto;
+}
+
+.cogumelo{
+    height: 70px;
+    margin-right: 50px;
+}
+.cogumelo:hover{
+    margin-bottom: 50px;
+    transition: 2s;
+}
+.fantasma{
+    height: 100px;
+    margin-left: 60px;
+    margin-bottom: 160px;
+}
+
+.mario{
+    height: 220px;
+    transition: 0.4s ease-in-out;
+    
+}
+.fantasma:hover{
+    margin-bottom: 50px;
+    transition: 2s;
+}
+.mario:hover{
+    margin-top: -150px;
+    transition: 3s;
+}
+.iterface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.menu-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.menu-lista  li:hover{
+    color: rgb(194, 11, 11)
+
+}
+
+
+.menu-lista li{
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.conta{
+    
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+span:hover{
+    color: rgb(10, 232, 240);
+}
+.conta:hover{
+    color: rgb(10, 232, 240);
+    background-color: rgba(0,0,0,0.90);
+    cursor: pointer;
+    
+}
+
+.conteudo{
+    display: flex;
+}
+span{
+    color: red;
+    letter-spacing: 1px;
+}
+p{
+    font-family: 'League Spartan';
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    
+}
+
+h1{
+    text-transform: capitalize;
+}
+.text{
+    
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    text-align: center;
+    margin: 8px;
+}
+.inputes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+   
+}
+.inputes input{
+    height: 30px;
+    width: 240px;
+    outline: none;
+    border: 1px solid rgb(190, 181, 181);
+    border-radius: 10px;
+    margin: 10px auto;
+    color: rgb(6, 221, 236);
+    
+}
+
+.inputes input::placeholder{
+    color: rgb(0, 204, 255);
+    letter-spacing: 2px;
+    
+    
+    
+}
+
+
+.inputes input:hover{
+    background-color: black;
+    box-shadow: 2px 3px 15px aqua;
+     
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+button:hover{
+    color: aqua;
+    background-color: black;
+    box-shadow: 2px 3px 15px aqua;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    text-decoration: underline;
+}
